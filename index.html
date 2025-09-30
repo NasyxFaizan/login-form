@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Full Screen Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-screen w-screen bg-cover bg-center bg-no-repeat" style="background-image: url('https://img1.wsimg.com/isteam/ip/e9b65d46-2ad8-417f-aecc-5d23b39ba01e/MU%20pic.jpeg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1920,m');">
+  
+  <!-- Overlay -->
+  <div class="h-full w-full flex items-center justify-center bg-black bg-opacity-50">
+    
+    <!-- Login Box -->
+    <div class="backdrop-blur-md bg-white/10 p-8 rounded-xl shadow-lg max-w-sm w-full text-white">
+      <h2 class="text-2xl font-semibold mb-6 text-center">My Neu</h2>
+      <form class="space-y-4">
+        <div>
+          <label class="block text-sm mb-1" for="email"></label>
+          <input type="email" id="email" class="w-full px-4 py-2 rounded bg-white/20 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-white" placeholder="Username" />
+        </div>
+        <div>
+          <label class="block text-sm mb-1" for="password"></label>
+          <input type="password" id="password" class="w-full px-4 py-2 rounded bg-white/20 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-white" placeholder="Password" />
+        </div>
+        <button type="submit" class="w-full bg-white text-black font-semibold py-2 rounded hover:bg-gray-200 transition">Login</button>
+      </form>
+    </div>
+
+  </div>
+  
+</body>
+</html>
